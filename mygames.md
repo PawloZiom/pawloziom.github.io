@@ -1,2 +1,4 @@
 
-## Moje Gry
+# Moje Gry
+
+Tutaj znajdziesz wszystkie moje gry:
