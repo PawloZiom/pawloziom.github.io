@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!--
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post.it</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Post.it">
+    <h1>Post.it</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Strona główna</a></li>
+        <li><a href="#">Profil</a></li>
+        <li><a href="#">Wiadomości</a></li>
+        <li><a href="#">Wyloguj</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="tweet-form">
+      <form>
+        <textarea placeholder="Co słychać?" rows="3"></textarea>
+        <button type="submit">Tweetnij</button>
+      </form>
+    </section>
+    <section id="tweets">
+      <ul>
+        <li>
+          <div class="tweet-header">
+            <img src="avatar.png" alt="Awatar użytkownika">
+            <h2>Username</h2>
+          </div>
+          <p>Treść tweeta Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tweet-footer">
+            <a href="#">Polub</a>
+            <a href="#">Udostępnij</a>
+          </div>
+        </li>
+        <li>
+          <div class="tweet-header">
+            <img src="avatar.png" alt="Awatar użytkownika">
+            <h2>Username2</h2>
+          </div>
+          <p>Treść tweeta 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tweet-footer">
+            <a href="#">Polub</a>
+            <a href="#">Udostępnij</a>
+          </div>
+        </li>
+        <!-- Dodaj więcej tweetów tutaj -->
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Post.it &copy; 2023. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>

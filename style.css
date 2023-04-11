@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+/* Resetowanie stylów */
+body, figure, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dd, dt, ol, ul, pre, form, fieldset, legend, button, input, textarea, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Ogólny styl dla całego dokumentu */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  /* Nagłówek */
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  /* Formularz do tworzenia tweeta */
+  #tweet-form {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  #tweet-form form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #tweet-form textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #tweet-form button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Lista tweetów */
+  #tweets ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  #tweets li {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .tweet-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .tweet-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .tweet-header h2 {
+    font-size: 18px;
+  }
+  
+  #tweets p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .tweet-footer {
+    margin-top: 10px;
+  }
+  
+  .tweet-footer a {
+    color: #3498db;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* Stopka */
+  footer {
+    background-color: #ddd;
+    color: #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
