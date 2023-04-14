@@ -134,4 +134,23 @@ body, figure, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dd, dt, ol, ul, pre, fo
     padding: 10px;
     text-align: center;
   }
+
+/* CSS dla zmodyfikowanego przycisku "Zaloguj się" i "Profil" */
+#login-link {
+  display: block;
+}
+
+#profile-link {
+  display: none;
+}
+
+/* CSS do wyświetlania przycisku "Profil" po zalogowaniu użytkownika */
+.logged-in #profile-link {
+  display: block;
+}
+
+.logged-in #login-link {
+  display: none;
+}
+
   
