@@ -1,6 +1,8 @@
 // Sprawdzenie, czy plik cookie został zaakceptowany
 if (localStorage.getItem("cookieAccepted")) {
   document.getElementById("cookie-info").style.display = "none";
+} else {
+  document.getElementById("cookie-info").style.display = "block"; // Dodanie wyświetlania informacji o plikach cookie, jeśli nie zostały zaakceptowane
 }
 
 // Obsługa kliknięcia przycisku akceptacji plików cookie
