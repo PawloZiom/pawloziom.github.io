@@ -153,4 +153,38 @@ body, figure, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dd, dt, ol, ul, pre, fo
   display: none;
 }
 
+/* Styl dla informacji o plikach cookie */
+.cookie-info {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+  z-index: 9999;
+}
+
+.cookie-info img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.cookie-info p {
+  display: inline;
+  margin: 0;
+}
+
+.cookie-info button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
   
