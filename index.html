@@ -16,18 +16,18 @@
   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Logo Post.it">
-    <h1>Post.it</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Strona główna</a></li>
-        <li><a href="#">Profil</a></li>
-        <li><a href="#">Wiadomości</a></li>
-        <li><a href="/login">Zaloguj się</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <img src="logo.png" alt="Logo" />
+  <h1>Post.it</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Strona główna</a></li>
+      <li><a href="#explore">Odkrywaj</a></li>
+      <li id="profile-link" style="display: none;"><a href="#profile">Profil</a></li> <!-- Przycisk "Profil" ukryty na początku -->
+      <li id="login-link"><a href="#login">Zaloguj się</a></li> <!-- Przycisk "Zaloguj się" widoczny na początku -->
+    </ul>
+  </nav>
+</header>
   <main>
     <section id="tweet-form">
       <form>
