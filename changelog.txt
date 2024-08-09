@@ -1,0 +1,8 @@
+v. 0.1
+- Added changelog
+- Bug fixes
+- Added Truck
+- Added Town
+- Added Sapling Store (not working right now!)
+- Working saving
+- And much more!
